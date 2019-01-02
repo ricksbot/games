@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+*.log
+.temp
+TODOs.md
+packages/@vuepress/shared-utils/lib/
+types
+.vuepress/dist/
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
