@@ -9,7 +9,8 @@ module.exports = {
     sidebar: [
       '/',
       '/Themes',
-      'Day1'
+      'Day1',
+      'Day2'
       
     ],
     repo:"CS2510/games",
