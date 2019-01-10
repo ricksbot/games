@@ -1,2 +1,2 @@
 /*
-  X-Frame-Options: ALLOW
+  X-Frame-Options: allow-from https://accounts.google.com/
