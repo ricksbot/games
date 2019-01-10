@@ -22,4 +22,4 @@
 
  ## Course Calendar
 
- <iframe src="https://calendar.google.com/calendar/embed?src=unomaha.edu_rt7ll8keltvc04721p2ftrhs50%40group.calendar.google.com&ctz=America%2FChicago&showTz=0&showTitle=0&showPrint=0&showCalendars=0" style="border: 0" :width="800" height="600" frameborder="0" scrolling="no" showTz=0></iframe>
+ <iframe src="https://calendar.google.com/calendar/embed?src=9tflkh8l56ni973a0d60hhgu20%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
