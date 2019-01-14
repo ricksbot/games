@@ -21,43 +21,55 @@ Look at a job listing. Here's one at [Media Molecule](https://www.mediamolecule.
 
 ## See
 
-[Name that game](./NameThatGame.pptx) to see how you can tell about a game just from its ui. I've taken games from IGN's top 100 games and blacked out the UI. Can you tell just from looking at the location of the UI what the genre is? How come? When you write a game, you want your player to feel very comfortable with your game--make sure your UI layout is as familiar to them as these classic games.
+[Name that game](https://github.com/CS2510/games/blob/master/NameThatGame.pptx) to see how much you can tell about a game just from its UI. I've taken games from IGN's top 100 games and blacked out the UI. Can you tell just from looking at the location of the UI what the genre is? How come? When you write a game, you want your player to feel very comfortable with your game--make sure your UI layout is as familiar to them as these classic games.
 
 ## Code
 
-### Two ways to draw
+If we're going to make a game, we need to draw on the screen. There are two ways to do this.
 
-- Pixel-based (Photoshop, MS paint, Gimp)
+### Two ways to represent an image
+
+- Pixel-based (Editors include Photoshop, MS paint, Gimp)
 
 Is "intuitive" when you are coming from a screen. You assign each pixel a color.
 
-Problems: Doesn't scale and you can't edit logically.
+Great: It is easy to represent a photograph and fast to send pixel data to a screen.
 
-Great: photographs and great to send to the screen.
+Problems: Doesn't scale (it gets jagged) and you can't edit it logically.
 
+- Vector-based (Editors include Illustrator, Inkscape, PowerPoint)
 
-- Vector-based (Illustrator, Inkscape, PowerPoint)
+Great: Vector-based images scale infinitely
 
-Great: scale infinitely
+Problems: It is hard to represent a photograph and slow to send data to screen since vector images  need to be rendered.
 
-Problems: Terrible for photographs, time consuming to map to a screen.
+- In HTML/CSS/JS
 
-
-Back to HTML/JS
 Pixel-based drawing is done on a `<canvas>`
 
 Vector-based drawing is done within a `<svg>`
 
+We'll start with a pixel-based drawing on a `<canvas>`
+
 ### Two ways to draw
 
-Stateful drawing - All future calls will be red. Draw a line. (e.g. Java, JS)
+When you draw, you need to tell the computer both the color and location of the draw call. There are two approaches to doing this, and they tend to be language specific. When you draw with code, you need to know which approach the language/library/api uses.
 
-Stateless drawing - all information (about color) included in all drawing calls. (Microsoft-centric approach, e.g. c#, c++)
 
-### Colors in javascript
+- Stateful drawing 
 
-- Strings
+Color calls and location of draw are made in separate calls. For example: All future calls will be red. Draw a line. (e.g. Java, JS)
+
+- Stateless drawing
+
+Color calls and location of draw are made in the same call. For example: Draw a red line. (Microsoft-centric approach, e.g. c#, Win32)
+
+### Colors representation in javascript
+
+You can represent colors three ways in HTML/CSS/JS
+
+- [Web Colors](https://en.wikipedia.org/wiki/Web_colors)
 - Hex #RRGGBB
-- rgb(0-255,0-255,0-255
+- rgb(0-255,0-255,0-255)
 
-http://paletton.com
+I've found it helpful to pick a color pallette using one of many online tools, for example: [paletton.com](http://paletton.com)
