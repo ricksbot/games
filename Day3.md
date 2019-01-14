@@ -21,7 +21,7 @@ Look at a job listing. Here's one at [Media Molecule](https://www.mediamolecule.
 
 ## See
 
-[Name that game]("./Name that game.pptx") to see how you can tell about a game just from its ui. I've taken games from IGN's top 100 games and blacked out the UI. Can you tell just from looking at the location of the UI what the genre is? How come? When you write a game, you want your player to feel very comfortable with your game--make sure your UI layout is as familiar to them as these classic games.
+[Name that game](./NameThatGame.pptx) to see how you can tell about a game just from its ui. I've taken games from IGN's top 100 games and blacked out the UI. Can you tell just from looking at the location of the UI what the genre is? How come? When you write a game, you want your player to feel very comfortable with your game--make sure your UI layout is as familiar to them as these classic games.
 
 ## Code
 
