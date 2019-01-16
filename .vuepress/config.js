@@ -11,7 +11,9 @@ module.exports = {
       '/Themes',
       'Day1',
       'Day2',
-      'Day3'
+      'Day3',
+      'Day4',
+      'Day5'
       
     ],
     repo:"CS2510/games",
