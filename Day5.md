@@ -18,6 +18,7 @@ Kansas State University
 ## Prepare
 
 **Not official advice**
+
 One day you actually might make money from your game (ads or in-game purchases). You'll need to decide if making games is your hobby or if it has become a hobby (this has tax implications).
 
 A business requires startup costs (filing fees, etc.), but allows you to better handle taxes (deduction, etc.) Hobbies don't require any filing fees, but you are required to pay income taxes on the earnings and deductions are harder.
@@ -25,6 +26,12 @@ A business requires startup costs (filing fees, etc.), but allows you to better 
 As if this writing, here's the most recent guidance from the IRS: [Business or Hobby?](https://www.irs.gov/faqs/small-business-self-employed-other-business/income-expenses/income-expenses)
 
 ## Code
+
+### Update on code
+
+[Starter Code](https://github.com/CS2510/code/blob/master/day5/starter.html)
+
+### Model - World - Camera
 
 
 
