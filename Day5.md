@@ -33,6 +33,27 @@ As if this writing, here's the most recent guidance from the IRS: [Business or H
 
 ### Model - World - Camera
 
+## Drawing Models in a World with a Camera
+
+### Hierarchy
+Everything is in a hierarchy.
+
+Parents have children.
+
+To "parent" a child to another object, the child can be (scaled and rotated) then translated.
+
+Children can be parents of other children. You can do this infinitely.
+
+## Save and Restore to have multiple children
+
+Before the transform code to add a child, you call save() so you can parent other children. When you are down with one child's transforms, call restore() to add another child. You can do this recursively.
+
+[Code from the end of class](https://github.com/CS2510/code/blob/master/day5/endOfClass.html).
+
+Here is the same code with [additional comments and some standardized syntax](https://github.com/CS2510/code/blob/master/day5/endOfClassPolished.html). Start here if you want to build on the code.
+
+
+
 
 
 
