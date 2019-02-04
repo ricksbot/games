@@ -31,8 +31,6 @@ As if this writing, here's the most recent guidance from the IRS: [Business or H
 
 [Starter Code](https://github.com/CS2510/code/blob/master/day5/starter.html)
 
-### Model - World - Camera
-
 ## Drawing Models in a World with a Camera
 
 ### Hierarchy
