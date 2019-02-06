@@ -12,6 +12,7 @@ Seeing a larger view of games.  [Calendars and Games](https://github.com/CS2510/
 
 ## Coding
 
+[Transform Helper](./Transforms.pptx).
 [Starter code](https://github.com/CS2510/code/blob/master/day6/starter.html).
 
 ## Just for fun
