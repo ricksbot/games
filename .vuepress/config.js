@@ -13,7 +13,8 @@ module.exports = {
       'Day2',
       'Day3',
       'Day4',
-      'Day5'
+      'Day5',
+      'Day6'
       
     ],
     repo:"CS2510/games",
